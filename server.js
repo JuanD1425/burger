@@ -23,6 +23,5 @@ app.set('view engine', 'handlebars');
 var routes = require('./controllers/burgers_controller.js');
 app.use('/', routes);
 
-var port = 5000;
+var port = process.env.PORT || '3000';
 app.listen(port);
-console.log("go to localhost:5000");
