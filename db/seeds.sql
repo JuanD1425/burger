@@ -2,7 +2,7 @@ INSERT INTO burgers (burgerName, devoured)
 VALUES ('California Burger', false);
 
 INSERT INTO burgers (burgerName, devoured) 
-VALUES ('Original Chicken Sandwish', false);
+VALUES ('Original Chicken Sandwich', false);
 
 INSERT INTO burgers (burgerName, devoured) 
 VALUES ('Quarter Pounder', false);
