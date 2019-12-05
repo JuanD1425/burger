@@ -1,0 +1,82 @@
+@import url(http://fonts.googleapis.com/css?family=Lilita+One);
+@import url(http://fonts.googleapis.com/css?family=Oswald);
+body {
+    background-color: crimson;
+    font-family: "Lilita One";
+    font-size: 25px;
+    line-height: 30px;
+    margin: 5px 5px 24px;
+    text-align: center;
+    text-justify: inter-word;
+    letter-spacing: 1.5px;
+}
+
+h2 {
+    font-family: "Oswald";
+}
+
+div.col-sm-6 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.btn {
+    font-family: "Oswald";
+    text-align: left;
+    padding: 5px;
+    margin: 5px 10px;
+    border: 2px none;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.btn:focus,
+.btn:active:focus,
+.btn.active:focus {
+    outline: 0 none;
+}
+
+.btn-primary {
+    background: blueviolet;
+    color: #ffffff;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open>.dropdown-toggle.btn-primary {
+    background: skyblue;
+}
+
+.btn-primary:active,
+.btn-primary.active {
+    background: skyblue;
+    box-shadow: none;
+}
+
+.btn-lg.round {
+    border-radius: 30px;
+}
+
+.btn-primary.raised:active,
+.btn-primary.raised.active {
+    background: seagreen;
+    box-shadow: none;
+    margin-bottom: -3px;
+    margin-top: 3px;
+}
+
+.btn-primary.raised {
+    box-shadow: 5px 10px 0 0 #007299;
+}
+
+.jumbotron {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.container {
+    background-color: orange;
+}
